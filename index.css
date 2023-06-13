@@ -1,0 +1,55 @@
+.chart-container {
+  position: relative;
+}
+.bar rect {
+  transition: fill 0.3s ease;
+}
+
+.bar rect:hover {
+  fill: orange;
+}
+
+.x.axis path,
+.y.axis path {
+  fill: none;
+  stroke: #ccc;
+}
+
+.x.axis line,
+.y.axis line {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1;
+}
+
+.x.axis .tick line {
+  stroke: #ddd;
+}
+
+.x.axis .tick text {
+  font-size: 12px;
+}
+
+.y.axis .tick text {
+  font-size: 12px;
+}
+
+.axis-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#applyFilterBtn {
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#applyFilterBtn:hover {
+  background-color: #0056b3;
+}
